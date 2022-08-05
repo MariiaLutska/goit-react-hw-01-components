@@ -1,0 +1,39 @@
+.profile {
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+}
+
+.description {
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.avatar {
+    width: 100px;
+}
+
+.location {
+    color: black;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    border-top: 1px solid gray;
+    background-color: rgb(220, 218, 218);
+
+}
+
+.label {
+    font-style: 16px;
+    color: gray;
+
+}
+
+.quantity {
+    font-style: 20px;
+}
