@@ -1,0 +1,40 @@
+.statistics {
+    margin-top: 20px;
+    display: block;
+    border: 2px solid black;
+
+}
+
+.title {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.stat_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0;
+    border-top: 2px solid gray;
+    font-size: 16px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid gray;
+    padding: 10px;
+    color: white;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.persentage {
+
+    font-size: 22px;
+}
