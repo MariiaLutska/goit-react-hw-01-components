@@ -1,0 +1,22 @@
+.transaction_history {
+    border-collapse: collapse;
+    font-size: 14px;
+    color: grey;
+    width: 600px;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(62, 129, 218);
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+
+td, th, tr {
+    border: 1px solid black;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgrey;
+}
